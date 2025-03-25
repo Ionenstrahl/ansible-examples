@@ -98,7 +98,7 @@
     #Defining and accessing the variable at RunTime
     - name: Print the value of variable when var file is passed at run time
       debug:
-        var: other_variable
+        var:
 
 
 

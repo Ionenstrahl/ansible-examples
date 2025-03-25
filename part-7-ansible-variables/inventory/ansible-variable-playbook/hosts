@@ -1,2 +1,10 @@
 [default]
-ec2-18-185-110-39.eu-central-1.compute.amazonaws.com ansible_ssh_private_key_file=/Users/rahulwagh/.ssh/aws_ec2_terraform
+
+# windows path
+# ec2-3-79-182-130.eu-central-1.compute.amazonaws.com ansible_ssh_private_key_file=/Users/jonas.hoerl/.ssh/aws_ec2_ed25519.pem
+
+# wsl path for original shh key
+# ec2-3-79-182-130.eu-central-1.compute.amazonaws.com ansible_ssh_private_key_file=/mnt/c/Users/jonas.hoerl/.ssh/aws_ec2_ed25519.pem
+
+# wsl path for copied shh key
+ec2-3-79-182-130.eu-central-1.compute.amazonaws.com ansible_ssh_private_key_file=/home/user/.ssh/aws_ec2_ed25519.pem
